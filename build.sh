@@ -3,7 +3,6 @@
 
 set -o errexit
 
-poetry install
 
 py manage.py collecstatic --no-input
 py manage.py migrate
